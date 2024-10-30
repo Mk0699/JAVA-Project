@@ -33,6 +33,7 @@ class javaproject{
                 else if(day>28 || day < 1 || year<=0){
                     return false;
                 }
+                break;
             //checks for months having 30 days
             case 4,6,9,11:
                 if(day>30 || day<1 || year<=0){
